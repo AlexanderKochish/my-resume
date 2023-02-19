@@ -1,0 +1,25 @@
+@import "../../styles/breakpoints";
+
+.profile__img {
+  @include xl {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+  }
+  min-width: 100%;
+  height: 60vh;
+  & > img {
+    @include xl {
+      object-fit: cover;
+      max-width: 40%;
+      height: 100vh;
+      filter: sepia(100%) hue-rotate(98deg) saturate(200%);
+    }
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    filter: sepia(100%) hue-rotate(466deg) saturate(200%);
+  }
+}

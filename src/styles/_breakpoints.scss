@@ -1,0 +1,33 @@
+$sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
+
+@mixin xs {
+    @media (min-width:map-get($sizes,"xs")){
+        @content;
+    }
+}
+@mixin sm {
+    @media (min-width:map-get($sizes,"sm")){
+        @content;
+    }
+}
+@mixin md {
+    @media (min-width:map-get($sizes,"md")){
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width:map-get($sizes,"lg")){
+        @content;
+    }
+}
+@mixin xl {
+    @media (min-width:map-get($sizes,"xl")){
+        @content;
+    }
+}
+
+@mixin breakpoint($bp:0) {
+    @media (min-width:$bp) {
+        @content;
+    }
+}
