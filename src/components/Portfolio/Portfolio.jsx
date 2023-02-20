@@ -9,7 +9,7 @@ const MyPortfolio = () => {
       id: 1,
       img: Avengers,
       name: "Marvel Info App",
-      url: "https://marvel-info-5sg15v4mo-alexanderkochish.vercel.app/",
+      url: "https://marvel-info-app-theta.vercel.app/",
     },
     {
       id: 2,
