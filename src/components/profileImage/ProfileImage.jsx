@@ -1,7 +1,7 @@
 import "./profileImage.scss";
 import { useEffect, useRef } from "react";
-import myPhoto from "../../assets/IMG_20230904_192449.jpg";
-import myPhoto2 from "../../assets/IMG_20230904_192446.jpg";
+import myPhoto from "../../assets/IMG_20230904_192449.webp";
+import myPhoto2 from "../../assets/IMG_20230904_192446.webp";
 
 const ProfileImage = () => {
   const ref = useRef(myPhoto);

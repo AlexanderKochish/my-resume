@@ -27,7 +27,7 @@ const MySkills = () => {
           {skills.map(({ id, img, lang }) => (
             <li key={id} className="skills__list-item">
               <div className="skills__list-item__box">
-                <img src={img} alt="programming image" />
+                <img src={img} alt="programming image" loading="lazy"/>
                 <h4>{lang}</h4>
               </div>
             </li>
