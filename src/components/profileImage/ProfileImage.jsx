@@ -1,7 +1,7 @@
 import "./profileImage.scss";
 import { useEffect, useRef } from "react";
-import myPhoto from "../../assets/DSC09338.jpg";
-import myPhoto2 from "../../assets/user.jpg";
+import myPhoto from "../../assets/IMG_20230904_192449.jpg";
+import myPhoto2 from "../../assets/IMG_20230904_192446.jpg";
 
 const ProfileImage = () => {
   const ref = useRef(myPhoto);
@@ -30,6 +30,7 @@ const ProfileImage = () => {
         src={!mql.matches ? myPhoto2 : myPhoto}
         alt="profile photo"
         className="profile_photo"
+        loading="lazy"
       />
     </div>
   );

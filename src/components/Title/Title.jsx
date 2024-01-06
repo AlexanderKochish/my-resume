@@ -1,7 +1,7 @@
-import React from "react";
 import "./title.scss";
 
 const AppTitle = () => {
+  
   return (
     <section id="home" className="title">
       <div className="title__round">
