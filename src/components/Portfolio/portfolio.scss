@@ -89,11 +89,14 @@
   }
 }
 .slick-slider.slick-initialized {
-  width: 100%;
-  padding-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ @include sm { 
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  padding: 0;
 }
 .slick-list {
   @include sm {
